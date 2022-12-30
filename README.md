@@ -1,4 +1,3 @@
 # Chrome-Extension
 
-<h2>Test
-</h2>
+<h2>Test</h2>
