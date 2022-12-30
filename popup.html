@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flying Meme Animator</title>
+    <link rel="stylesheet" href="css/tailwind.css" />
+  </head>
+  <body id="root-wrapper">
+    <!-- header section -->
+    <header id="header-wrapper">
+      <label for="enabled" class="switch">
+        <div>
+          <input id="enabled" type="checkbox" class="sr-only" />
+          <div class="bar"></div>
+          <div class="dot"></div>
+        </div>
+      </label>
+      <button id="close" class="text-gray-600">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-4 w-4"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </header>
+
+    <!-- main section -->
+    <main id="main-wrapper"></main>
+
+    <!-- footer section -->
+    <footer id="footer-wrapper">
+      Powered By&nbsp;<a
+        href="https://giphy.com/"
+        target="blank"
+        class="text-blue-500 hover:text-blue-700 hover:underline"
+        >Giphy</a
+      >
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
